@@ -6,7 +6,7 @@ namespace PFmyschool.Context
 {
     public class ApplicationDbContext :DbContext
     {
-        //zññ
+        //asa
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
         public DbSet<Usuario> Usuario { get; set; }
